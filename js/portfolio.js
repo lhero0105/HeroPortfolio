@@ -130,7 +130,7 @@ $CateList.forEach((e,i)=>{
         // alert($attr)
         $CateList[i].classList.add("on")
 
-        axios.get("../data/data.json")
+        axios.get("data/data.json")
         .then(function(res){
             let PortData;
             if($attr === "전체"){
