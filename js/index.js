@@ -51,7 +51,7 @@ const chkLang = localStorage.getItem("lang");
 // console.log(chkLang)
 
 
-axios.get("../data/data.json")
+axios.get("data/data.json")
 .then(function(res){
     // console.log(res)
     if ($lang == "en") {
