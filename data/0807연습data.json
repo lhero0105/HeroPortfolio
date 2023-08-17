@@ -1,0 +1,24 @@
+{
+    "KrNav" : [
+        {
+            "title" : "프로필"
+        },
+        {
+            "title" : "스킬"
+        },
+        {
+            "title" : "포트폴리오"
+        }
+    ],
+    "EnNav" : [
+        {
+            "title" : "prfile"
+        },
+        {
+            "title" : "Skill"
+        },
+        {
+            "title" : "Portfolio"
+        }
+    ]
+}

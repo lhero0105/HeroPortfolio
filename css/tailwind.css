@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{font-family: 'S-CoreDream-3Light';}
+
+.dark body,
+.dark .nav{
+    animation: infinite 4s background alternate-reverse;
+    color: #ebf4f1;
+}
+
+@keyframes background {
+    0%{background-color: #091a28;}
+    50%{background-color: #08131b;}
+    100%{background-color: #030507;}
+    /* 0%{background-color: red;}
+    50%{background-color: skyblue;}
+    100%{background-color: orange;} */
+    /* 그라데이션 효과 */
+    /* 다크 모드 시 #272929 nav에 적용하면 잘 어울림 */
+}
+.list li::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    bottom: 0;
+    left: 0;
+    transition: 1s;
+    transform: scaleX(0);
+}
+.dark .list li::after{
+    background-color: #ebf4f1;
+}
+.list li.on::after,
+.list li:hover::after{
+    transform: scaleX(1);
+}
+.list li.on,
+.list li:hover{
+    font-weight: bold;
+}
+.m-btn.on > div:nth-child(1){
+    transform:  rotate(45deg) translateY(14px);
+}
+.m-btn.on > div:nth-child(2){
+    transform: translateX(-30px);
+    opacity: 0;
+}
+.m-btn.on > div:nth-child(3){
+    transform: rotate(-45deg) translateY(-14px);
+}
+.m-btn.on + div{
+    right: 0;
+}

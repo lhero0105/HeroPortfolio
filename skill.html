@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<!-- 컨트롤 알트 T (검색) -->
+<!-- 편리하게 +눌러서 새터미널 열고 안꺼지도록 사용 -->
+<body>
+    <div class="w-full nav dark:border-b px-[2%] sticky top-0 bg-white py-2.5 z-50">
+        <!-- max-width: 80rem;  1280px -->
+        <!-- dark:border-b - 다크모드 일 때 만 적용 -->
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <a href="index.html">
+                <img src="http://via.placeholder.com/120x50" alt="logo" title="로고">
+            </a>
+            <div class="basis-3/4 hidden md:block">
+                <ul class="flex justify-around items-center list">
+                    <li class="relative"><a href="profile.html">프로필</a></li>
+                    <li class="relative on"><a href="skill.html">스킬</a></li>
+                    <li class="relative"><a href="portfolio.html">포트폴리오</a></li>
+                </ul>
+            </div>
+            <div class="basis-1/12 hidden md:block">
+                <ul class="flex justify-between">
+                    <li onclick="darkMode()" class="basis-2/4 text-center cursor-pointer text-2xl">
+                        <!-- onclick에 함수가져와 사용하겠다 -->
+                        <i class="fas fa-moon"></i>
+                    </li>
+                    <li class="basis-2/4 text-center cursor-pointer text-2xl relative group">
+                        <!-- 호버할 때 group 쓰고 입력 -->
+                        <i class="fas fa-globe"></i>
+                        <ul class="dark:bg-[#272929] absolute w-20 top-[30px] -left-[12px] bg-white rounded transition-all duration-500 flex flex-wrap h-0 overflow-hidden group-hover:h-20 ">
+                            <li class="w-full basis-full h-10 leading-10 hover:font-bold"><a href="?Lang=kr" class="text-sm" onclick="language('kr')">한국어</a></li>
+                            <!-- leading 줄간격 -->
+                            <li class="w-full basis-full h-10 leading-10 hover:font-bold"><a href="?Lang=en" class="text-sm" onclick="language('en')">영어</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div onclick="mNav()" class="fixed right-5 top-5 transition-all duration-1000 z-[100] cursor-pointer md:hidden m-btn">
+        <!-- md:hidden - 모바일에만 보여지도록 -->
+        <div class="w-[30px] h-[5px] bg-black dark:bg-[#ebf4f1] rounded m-[5px] transition-all duration-1000"></div>
+        <div class="w-[30px] h-[5px] bg-black dark:bg-[#ebf4f1] rounded m-[5px] transition-all duration-1000"></div>
+        <div class="w-[30px] h-[5px] bg-black dark:bg-[#ebf4f1] rounded m-[5px] transition-all duration-1000"></div>
+    </div>
+    <div class="w-72 h-full fixed bg-gray-100 dark:bg-[#272929] z-50 p-12 top-0 -right-80 box-border transition-all duration-500 md-hidden">
+        <div class="tect-center mt-6">
+            <img src="https://via.placeholder.com/100" alt="100x100">
+            <div class="mx-auto rounded-full mb-4">
+                <p>프론트엔드 개발자 엄준식</p>
+            </div>
+            <ul class="mt-12">
+                <li class="pt-5 pb-2 border-b hover:font-bold duration-500"><a class="transition-all" href="profile.html"><i class="fas fa-user"></i> 프로필</a></li>
+                <li class="pt-5 pb-2 border-b hover:font-bold duration-500"><a href="skill.html"><i class="fas fa-code"></i> 스킬</a></li>
+                <li class="py-5 pb-2 border-b hover:font-bold duration-500"><a href="portfolio.html"><i class="fas fa-window-maximize"></i> 포트폴리오</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="w-full pt-12 mt-16 px-[2%] pb-8">
+        <div class="max-w-7xl mx-auto p-5 bg-white rounded-md border dark:bg-[#272929] dark:text-[#ebf4f1]">
+            <h3 class="relative font-bold text-center text-xl sm:text-2xl lg:text-3xl tracking-widest after:absolute after:w-10 after:h-[2px] after:bg-black after:dark:bg-[#d9d9d9] after:-bottom-1 after:left-2/4 after:-translate-x-2/4">스킬</h3>
+        </div>
+        <div class="max-w-7xl mx-auto mt-8">
+            <div class="bg-white rounded-md border dark:bg-[#272929] dark:text-[#ebf4f1] p-5 mb-8 last:mb-0 skill-content"></div>
+        </div>
+    </div>
+
+    <!-- <div class="h-20 w-full h-5 bg-[#e0e0de] rounded=[50px] h-full bg-slate-700 duration-1000 ease-in-out rounded-[50px] text-right relative mb-3 first:mt-10 absolute -top-6 md:-top-7 left-1 text-sm md:text-lg""></div>
+    <div class="absolute -top-6 md:-top-7 left-1 text-sm md:text-lg"></div> -->
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/skill.js"></script>
+</body>
+</html>
