@@ -49,10 +49,10 @@
         {
             "title" : "◆ NOTION",
             "date" : [
-                "이영웅 노션"
+                "학원이나 인강을 통해 학습한 내용, 프로젝트하면서 있었던 시행착오 등 노션에 꼼꼼히 기록 해두었습니다."
             ],
             "dateDesc": [
-                "쿠오오옹"
+                "https://keen-echinacea-edd.notion.site/BackendLibrary-2492999215904510b47fa87896aceefb"
             ]
         }
     ],
@@ -60,184 +60,196 @@
         {
             "title" : "html",
             "progressBefore" : 0,
-            "progressAfter" : 50,
-            "desc" : "웹표준에 준수하여, 마크업을 할 수 있으며, float이 아닌 flex 및 grid를 활용하여 레이아웃을 구성할 수 있다. 1"
+            "progressAfter" : 90,
+            "desc" : "웹표준에 준수하여, 마크업을 할 수 있습니다."
         },
         {
             "title" : "css",
             "progressBefore" : 0,
-            "progressAfter" : 60,
-            "desc" : "웹표준에 준수하여, 마크업을 할 수 있으며, float이 아닌 flex 및 grid를 활용하여 레이아웃을 구성할 수 있다. 2"
+            "progressAfter" : 90,
+            "desc" : "웹표준에 준수하여, 마크업을 할 수 있으며, float이 아닌 flex 및 grid를 활용하여 레이아웃을 구성할 수 있습니다."
         },
         {
             "title" : "js",
             "progressBefore" : 0,
-            "progressAfter" : 70,
-            "desc" : "웹표준에 준수하여, 마크업을 할 수 있으며, float이 아닌 flex 및 grid를 활용하여 레이아웃을 구성할 수 있다. 3"
+            "progressAfter" : 80,
+            "desc" : "동적으로 변경되는 컨텐츠를 만들 수 있으며, 멀티미디어를 제어 할 수 있습니다."
         },
         {
             "title" : "react",
             "progressBefore" : 0,
-            "progressAfter" : 80,
-            "desc" : "웹표준에 준수하여, 마크업을 할 수 있으며, float이 아닌 flex 및 grid를 활용하여 레이아웃을 구성할 수 있다. 4"
+            "progressAfter" : 50,
+            "desc" : "style컴포넌트, tailwind를 활용 할 수 있습니다."
         },
         {
-            "title" : "jquery",
+            "title" : "tailwind",
+            "progressBefore" : 0,
+            "progressAfter" : 60,
+            "desc" : "반응형 웹개발에 활용 할 수 있습니다."
+        },
+        {
+            "title" : "scss",
+            "progressBefore" : 0,
+            "progressAfter" : 80,
+            "desc" : "css보다 빠른 작업속도를 낼 수 있습니다."
+        },
+        {
+            "title" : "java",
             "progressBefore" : 0,
             "progressAfter" : 90,
-            "desc" : "웹표준에 준수하여, 마크업을 할 수 있으며, float이 아닌 flex 및 grid를 활용하여 레이아웃을 구성할 수 있다. 5"
+            "desc" : "람다식표현식, 스트림을 이해하고 있습니다."
+        },
+        {
+            "title" : "spring",
+            "progressBefore" : 0,
+            "progressAfter" : 90,
+            "desc" : "DAO, Spring Context, MVC등을 이해하고 있습니다."
+        },
+        {
+            "title" : "springboot",
+            "progressBefore" : 0,
+            "progressAfter" : 90,
+            "desc" : "JWT, 데이터베이스 처리, 권한 등을 사용하여 개발 할 수 있습니다."
+        },
+        {
+            "title" : "MyBatis",
+            "progressBefore" : 0,
+            "progressAfter" : 90,
+            "desc" : "서브쿼리를 사용하여 동적 쿼리문을 구현할 수 있습니다."
+        },
+        {
+            "title" : "JPA",
+            "progressBefore" : 0,
+            "progressAfter" : 70,
+            "desc" : "JPQL, JDSL을 활용하여 개발 할 수 있습니다."
+        },
+        {
+            "title" : "MySQL",
+            "progressBefore" : 0,
+            "progressAfter" : 90,
+            "desc" : "Group함수가 사용된 영역에 서브쿼리를 자유자제로 활용하여 원하는 수행을 할 수 있습니다."
         }
     ],
     "Portfolio" :[
         {
             "img" : "https://via.placeholder.com/500",
-            "descTitle" : "XXXX 웹앱",
-            "desc" : "API를 활용한 웹앱 개발...",
-            "keyword" : ["#심플함", "#깔끔함", "#반응형"],
-            "color" : ["orange", "orangered", "darkorange"],
-            "font" : "Noto Sans KR",
-            "tools" : ["Figma", "PS", "VS CODE", "GIT"],
-            "date" : "10일(기획1일/구상1일/제작8일)",
-            "contribution" : "100%",
+            "descTitle" : "CultureLog",
+            "desc" : "문화생활기록서비스",
+            "keyword" : ["#Restfull Api", "#간편한", "#유용한"],
+            "color" : ["beige", "lightgoldenrodyellow", "royalblue"],
+            "font" : "Team",
+            "tools" : ["springboot", "mariaDB", "IntelliJ", "GIT"],
+            "date" : "30일(기획3일/구상3일/제작24일)",
+            "contribution" : "25%",
             "type" : "Webapp",
-            "original" : "https://www.naver.com",
-            "create" : "https://www.kakao.com",
-            "git" : "https://www.github.com"
+            "original" : "https://alert-stomach-4e6.notion.site/1-Culture-Log-412423e6ea6440e9a564825e49ead871",
+            "create" : "https://pointed-fuschia-469.notion.site/Back-end-Notion-a82cbb68beec4ab09109eefbac502b8b",
+            "git" : "https://github.com/GYEONGROK11/culture-log"
         },
         {
             "img" : "https://via.placeholder.com/500",
-            "descTitle" : "XXXX 웹앱 2",
-            "desc" : "API를 활용한 웹앱 개발...",
-            "keyword" : ["#심플함", "#깔끔함", "#반응형"],
-            "color" : ["orange", "orangered", "darkorange"],
-            "font" : "Noto Sans KR",
+            "descTitle" : "HotelDog",
+            "desc" : "애견호텔중개예약서비스",
+            "keyword" : ["#Restfull Api", "#유니크", "#편리한"],
+            "color" : ["brown", "papayawhip", "cornflowerblue"],
+            "font" : "Team",
+            "tools" : ["springboot", "mariaDB", "IntelliJ", "GIT"],
+            "date" : "30일(기획4일/구상4일/제작22일)",
+            "contribution" : "25%",
+            "type" : "Webapp",
+            "original" : "http://192.168.0.144:5222/",
+            "create" : "https://keen-echinacea-edd.notion.site/2-Hotell-Dog-79953d8fe8914ff6a0279eb9ec7c5c81",
+            "git" : "https://github.com/lhero0105/Dog-Hoteling-service"
+        },
+        {
+            "img" : "https://via.placeholder.com/500",
+            "descTitle" : "부경건설회사",
+            "desc" : "부경건설회사 클론코딩",
+            "keyword" : ["#fullpage", "#깔끔함", "#반응형"],
+            "color" : ["saddlebrown", "darkblue", "gray"],
+            "font" : "개인",
             "tools" : ["Figma", "PS", "VS CODE", "GIT"],
-            "date" : "10일(기획1일/구상1일/제작8일)",
+            "date" : "10일(기획0일/구상0일/제작10일)",
             "contribution" : "100%",
             "type" : "Publishing",
-            "original" : "https://www.naver.com",
-            "create" : "https://www.kakao.com",
-            "git" : "https://www.github.com"
+            "original" : "http://127.0.0.1:5502/index.html",
+            "create" : "https://www.figma.com/file/cvwsMbgU8MYw9PgO06RXEv/BKbuild?type=design&node-id=0%3A1&mode=design&t=0JKVo6lSrMF5lwux-1",
+            "git" : "https://github.com/lhero0105/BKBUILD"
         },
         {
             "img" : "https://via.placeholder.com/500",
-            "descTitle" : "XXXX 웹앱 3",
-            "desc" : "API를 활용한 웹앱 개발...",
-            "keyword" : ["#심플함", "#깔끔함", "#반응형"],
-            "color" : ["orange", "orangered", "darkorange"],
-            "font" : "Noto Sans KR",
-            "tools" : ["Figma", "PS", "VS CODE", "GIT"],
-            "date" : "10일(기획1일/구상1일/제작8일)",
+            "descTitle" : "Awesome",
+            "desc" : "Awesome 클론코딩",
+            "keyword" : ["#심플함", "#깔끔함"],
+            "color" : ["yellow", "whitesmoke", "slategray"],
+            "font" : "개인",
+            "tools" : ["VS CODE", "GIT"],
+            "date" : "3일(기획0일/구상0일/제작3일)",
             "contribution" : "100%",
             "type" : "Publishing",
-            "original" : "https://www.naver.com",
-            "create" : "https://www.kakao.com",
-            "git" : "https://www.github.com"
+            "original" : "http://127.0.0.1:5501/awesome.html",
+            "create" : "",
+            "git" : "https://github.com/lhero0105/awesome"
         },
         {
             "img" : "https://via.placeholder.com/500",
-            "descTitle" : "XXXX 웹앱 4",
-            "desc" : "API를 활용한 웹앱 개발...",
+            "descTitle" : "T1",
+            "desc" : "SKT T1 클론코딩",
             "keyword" : ["#심플함", "#깔끔함", "#반응형"],
             "color" : ["orange", "orangered", "darkorange"],
-            "font" : "Noto Sans KR",
-            "tools" : ["Figma", "PS", "VS CODE", "GIT"],
-            "date" : "10일(기획1일/구상1일/제작8일)",
+            "font" : "개인",
+            "tools" : ["VS CODE", "GIT"],
+            "date" : "3일(기획0일/구상0일/제작3일)",
+            "contribution" : "100%",
+            "type" : "Publishing",
+            "original" : "http://127.0.0.1:5501/index.html",
+            "create" : "",
+            "git" : "https://github.com/lhero0105/SKT-T1"
+        },
+        {
+            "img" : "https://via.placeholder.com/500",
+            "descTitle" : "Subway",
+            "desc" : "Subway 클론로딩",
+            "keyword" : ["#심플함", "#깔끔함"],
+            "color" : ["orange", "green", "darkorange"],
+            "font" : "개인",
+            "tools" : ["VS CODE", "GIT"],
+            "date" : "4일(기획0일/구상0일/제작4일)",
+            "contribution" : "100%",
+            "type" : "Publishing",
+            "original" : "http://127.0.0.1:5501/index.html",
+            "create" : "",
+            "git" : "https://github.com/lhero0105/subway"
+        },
+        {
+            "img" : "https://via.placeholder.com/500",
+            "descTitle" : "전국축제게시판",
+            "desc" : "API를 활용한 게시판 개발",
+            "keyword" : ["#유용한", "#깔끔함", "#tailwind"],
+            "color" : ["orange", "orangered", "darkorange"],
+            "font" : "개인",
+            "tools" : ["react", "tailwind", "VS CODE", "GIT"],
+            "date" : "2일(기획0일/구상0일/제작2일)",
             "contribution" : "100%",
             "type" : "Project",
-            "original" : "https://www.naver.com",
-            "create" : "https://www.kakao.com",
-            "git" : "https://www.github.com"
+            "original" : "",
+            "create" : "",
+            "git" : "https://github.com/lhero0105/festival"
         },
         {
             "img" : "https://via.placeholder.com/500",
-            "descTitle" : "XXXX 웹앱 5",
+            "descTitle" : "택배 조회 시스템",
             "desc" : "API를 활용한 웹앱 개발...",
-            "keyword" : ["#심플함", "#깔끔함", "#반응형"],
+            "keyword" : ["#실용적인", "#깔끔함"],
             "color" : ["orange", "orangered", "darkorange"],
-            "font" : "Noto Sans KR",
-            "tools" : ["Figma", "PS", "VS CODE", "GIT"],
-            "date" : "10일(기획1일/구상1일/제작8일)",
-            "contribution" : "100%",
-            "type" : "Webapp",
-            "original" : "https://www.naver.com",
-            "create" : "https://www.kakao.com",
-            "git" : "https://www.github.com"
-        },
-        {
-            "img" : "https://via.placeholder.com/500",
-            "descTitle" : "XXXX 웹앱 6",
-            "desc" : "API를 활용한 웹앱 개발...",
-            "keyword" : ["#심플함", "#깔끔함", "#반응형"],
-            "color" : ["orange", "orangered", "darkorange"],
-            "font" : "Noto Sans KR",
-            "tools" : ["Figma", "PS", "VS CODE", "GIT"],
-            "date" : "10일(기획1일/구상1일/제작8일)",
+            "font" : "개인",
+            "tools" : ["api", "VS CODE", "GIT"],
+            "date" : "1일(기획0일/구상0일/제작1일)",
             "contribution" : "100%",
             "type" : "Publishing",
-            "original" : "https://www.naver.com",
-            "create" : "https://www.kakao.com",
-            "git" : "https://www.github.com"
-        },
-        {
-            "img" : "https://via.placeholder.com/500",
-            "descTitle" : "XXXX 웹앱 7",
-            "desc" : "API를 활용한 웹앱 개발...",
-            "keyword" : ["#심플함", "#깔끔함", "#반응형"],
-            "color" : ["orange", "orangered", "darkorange"],
-            "font" : "Noto Sans KR",
-            "tools" : ["Figma", "PS", "VS CODE", "GIT"],
-            "date" : "10일(기획1일/구상1일/제작8일)",
-            "contribution" : "100%",
-            "type" : "Project",
-            "original" : "https://www.naver.com",
-            "create" : "https://www.kakao.com",
-            "git" : "https://www.github.com"
-        },
-        {
-            "img" : "https://via.placeholder.com/500",
-            "descTitle" : "XXXX 웹앱 8",
-            "desc" : "API를 활용한 웹앱 개발...",
-            "keyword" : ["#심플함", "#깔끔함", "#반응형"],
-            "color" : ["orange", "orangered", "darkorange"],
-            "font" : "Noto Sans KR",
-            "tools" : ["Figma", "PS", "VS CODE", "GIT"],
-            "date" : "10일(기획1일/구상1일/제작8일)",
-            "contribution" : "100%",
-            "type" : "Webapp",
-            "original" : "https://www.naver.com",
-            "create" : "https://www.kakao.com",
-            "git" : "https://www.github.com"
-        },
-        {
-            "img" : "https://via.placeholder.com/500",
-            "descTitle" : "XXXX 웹앱 9",
-            "desc" : "API를 활용한 웹앱 개발...",
-            "keyword" : ["#심플함", "#깔끔함", "#반응형"],
-            "color" : ["orange", "orangered", "darkorange"],
-            "font" : "Noto Sans KR",
-            "tools" : ["Figma", "PS", "VS CODE", "GIT"],
-            "date" : "10일(기획1일/구상1일/제작8일)",
-            "contribution" : "100%",
-            "type" : "Publishing",
-            "original" : "https://www.naver.com",
-            "create" : "https://www.kakao.com",
-            "git" : "https://www.github.com"
-        },
-        {
-            "img" : "https://via.placeholder.com/500",
-            "descTitle" : "XXXX 웹앱 10",
-            "desc" : "API를 활용한 웹앱 개발...",
-            "keyword" : ["#심플함", "#깔끔함", "#반응형"],
-            "color" : ["orange", "orangered", "darkorange"],
-            "font" : "Noto Sans KR",
-            "tools" : ["Figma", "PS", "VS CODE", "GIT"],
-            "date" : "10일(기획1일/구상1일/제작8일)",
-            "contribution" : "100%",
-            "type" : "Webapp",
-            "original" : "https://www.naver.com",
-            "create" : "https://www.kakao.com",
-            "git" : "https://www.github.com"
+            "original" : "",
+            "create" : "",
+            "git" : "https://github.com/lhero0105/Delivery-tracking-system"
         }
     ]
 }

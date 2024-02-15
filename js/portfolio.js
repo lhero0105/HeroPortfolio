@@ -37,7 +37,7 @@ function PortfolioData(data){
             e.desc,
             "키워드 : ",
             "컬러 : ",
-            "폰트 : "+e.font,
+            "프로젝트 : "+e.font,
             "사용툴 : ",
             "작업기간 : "+e.date,
             "기여도 : "+e.contribution
@@ -68,7 +68,7 @@ function PortfolioData(data){
                 // e.tools.forEach(el =>{
                 //     text += el + " ";
                 // })
-                text += e.keyword.join();
+                text += e.tools.join();
                 p.textContent = text;
             }else{
                 p.textContent = descs[a];
@@ -98,11 +98,11 @@ function PortfolioData(data){
 
         if(e.original){
             
-            ul.appendChild(createList(e.original, "Original"));
+            ul.appendChild(createList(e.original, "Domain"));
         }
         if(e.create){
 
-            ul.appendChild(createList(e.create, "Create"));
+            ul.appendChild(createList(e.create, "Notion"));
             // ul.appendChild(li);
         }
         if(e.git){
